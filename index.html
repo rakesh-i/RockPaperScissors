@@ -6,10 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    <p class="choice">Start</p>
-    <button class="rock" onclick="selectMove('rock')">Rock</button>
-    <button class="paper" onclick="selectMove('paper')">Paper</button>
-    <button class="scissors" onclick="selectMove('scissors')">Scissors</button>
+    <div>
+        <button id="rock" onclick="selectMove('rock')">Rock</button>
+        <button id="paper" onclick="selectMove('paper')">Paper</button>
+        <button id="scissors" onclick="selectMove('scissors')">Scissors</button>
+    </div>
+    <div>
+        <p id="score">Click on the button to choose</p>
+    </div>
+    <div>
+        <p id="curr"></p>
+    </div>
 </body>
 <script src="rps.js"></script>
 </html>
